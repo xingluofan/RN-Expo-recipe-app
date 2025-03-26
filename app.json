@@ -1,48 +1,28 @@
 {
   "expo": {
-    "name": "我的菜谱",
-    "slug": "recipe-app",
+    "name": "RecipeApp",
+    "slug": "RecipeApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/splash-icon.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.xingluofan.recipeapp"
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.xingluofan.recipeapp",
-      "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
-      ],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "plugins": [
-      "expo-router",
-      "expo-image-picker"
-    ],
-    "scheme": "recipe-app",
-    "experiments": {
-      "tsconfigPaths": true
-    },
-    "owner": "xingluofan",
-    "extra": {
-      "eas": {
-        "projectId": "341d6a4c-c6f2-4e14-a26f-805b522d1f17"
-      }
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
